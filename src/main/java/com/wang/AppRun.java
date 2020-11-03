@@ -25,7 +25,7 @@ public class AppRun {
 //        }
 
         DDHtmlParseUtil ddHtmlParseUtil = new DDHtmlParseUtil();
-        List<DDContent> ddContents = ddHtmlParseUtil.parseDD("Java");
+        List<DDContent> ddContents = ddHtmlParseUtil.parseDD("C语言");
         for (DDContent ddContent : ddContents) {
             System.out.println(ddContent);
         }
